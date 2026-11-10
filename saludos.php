@@ -34,6 +34,7 @@ if (isset($_POST["idioma"])) {
     <meta charset="UTF-8">
     <title>Saludos</title>
 
+    <!-- Estilo del formulario -->
     <style>
         body {
             font-family: Arial;
@@ -99,6 +100,7 @@ if (isset($_POST["idioma"])) {
 
     <form method="POST">
 
+        <!-- Botonea que eligen varios idiomas -->
         <select name="idioma" required>
             <option value="">Selecciona...</option>
             <option value="espanol">Español</option>
@@ -111,6 +113,7 @@ if (isset($_POST["idioma"])) {
 
         <br><br>
 
+        <!-- Boton que muestra el saludo -->
         <button type="submit">Mostrar saludo</button>
 
     </form>
@@ -121,6 +124,7 @@ if (isset($_POST["idioma"])) {
     }
     ?>
 
+    <!-- Coneccion con la bienvenida -->
     <a href="bienvenida.php">Regresar a bienvenida</a>
 
 </div>
