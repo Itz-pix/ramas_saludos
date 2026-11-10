@@ -1,5 +1,6 @@
 
 <?php
+// Requisitos de la tarea
 $alumna = "Itzel Ximena Chacon Aviles";
 $tarea = "Pagina de bienvenida y saludos";
 $escuela = "CBTis 217";
@@ -12,6 +13,7 @@ $fecha = date("09/11/2026");
     <meta charset="UTF-8">
     <title>Bienvenida</title>
 
+<!-- Estilo del formulario -->
     <style>
         body {
             font-family: Arial;
@@ -61,6 +63,7 @@ $fecha = date("09/11/2026");
 </head>
 
 <body>
+    
 
 <div class="contenedor">
 
@@ -76,6 +79,7 @@ $fecha = date("09/11/2026");
 
     <p><b>Fecha:</b> <?php echo $fecha; ?></p>
 
+    <!-- Enlace con el formulario de saludos -->
     <a href="saludos.php">Ir a Saludos</a>
 
 </div>
